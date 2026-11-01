@@ -10,3 +10,11 @@ python = "3.14.10"
 [tasks.serve]
 description = "Serve the games directory using a minimal web server for local preview"
 run = "python -m http.server 8000 --bind 127.0.0.1 --directory games/"
+
+[tasks.lint]
+description = "Check every file"
+run = "hk check --all"
+
+[tasks.fix]
+description = "Check and auto-fix every file"
+run = "hk fix --all"
