@@ -1,3 +1,7 @@
 #:schema https://mise.jdx.dev/schema/mise.json
 [tools]
 python = "3.14.10"
+
+[tasks.serve]
+description = "Serve the games directory using a minimal web server for local preview"
+run = "python -m http.server 8000 --bind 127.0.0.1 --directory games/"
