@@ -2,6 +2,7 @@
 [tools]
 biome = "2.6.4"
 cspell = "10.4.0"
+"github:itchio/butler" = { version = "15.32.0", postinstall = 'chmod +x ${MISE_TOOL_INSTALL_PATH}/butler' }
 gitleaks = "8.30.1"
 hk = { version = "2.10.0", workflow = "release.yml" }
 markdownlint-cli2 = "0.24.0"
