@@ -1,0 +1,19 @@
+{
+    "version": "0.2",
+    "language": "en-US",
+    "dictionaryDefinitions": [
+        {
+            "name": "project-words",
+            "path": "./ltex.dictionary.en-US.txt",
+            "addWords": false
+        }
+    ],
+    "dictionaries": [
+        "project-words"
+    ],
+    "ignorePaths": [
+        "games/media/js/**",
+        "games/media/css/undum*.css",
+        "games/media/img/**"
+    ]
+}

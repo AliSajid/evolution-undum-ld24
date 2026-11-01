@@ -1,0 +1,11 @@
+#:schema https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+# config:
+#   MD013: false
+#   MD033: false
+#   MD041: false
+
+[config]
+no-inline-html = true
+
+[config.line-length]
+line_length = 120
