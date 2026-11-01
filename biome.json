@@ -1,0 +1,29 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.6.4/schema.json",
+    "files": {
+        "includes": [
+            "**",
+            "!games/media/js",
+            "!games/media/css/undum*.css"
+        ]
+    },
+    "formatter": {
+        "enabled": false
+    },
+    "assist": {
+        "enabled": false
+    },
+    "javascript": {
+        "globals": [
+            "undum",
+            "$",
+            "jQuery"
+        ]
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true
+        }
+    }
+}
