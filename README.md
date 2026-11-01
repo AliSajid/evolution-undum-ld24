@@ -1,3 +1,15 @@
+# Evolution CYOA Developed for LD48 ()
+
+> [!NOTE]
+> This is the README.md as it appeared in the original
+> repository when I created this "game".
+> The README above was written several years later,
+> as I set it up to be uploaded to my [itch.io](https://banseljaj.itch.io) page
+
+<!-- markdownlint-disable -->
+<!-- LTeX: enabled=false -->
+<!-- vale off -->
+
 # Evolution
 
 ## Introduction
@@ -35,3 +47,7 @@ License</a>.<br />Based on a work at <a
 xmlns:dct="http://purl.org/dc/terms/"
 href="github.com/AliSajid/ld48"
 rel="dct:source">github.com/AliSajid/ld48</a>.
+
+<!-- vale on -->
+<!-- LTeX: enabled=true -->
+<!-- markdownlint-enable -->
