@@ -8,6 +8,9 @@ hk = { version = "2.10.0", workflow = "release.yml" }
 markdownlint-cli2 = "0.24.0"
 python = "3.14.10"
 
+[env]
+ITCH_TARGET = "banseljaj/evolution:html5"
+
 [tasks.serve]
 description = "Serve the games directory using a minimal web server for local preview"
 run = "python -m http.server 8000 --bind 127.0.0.1 --directory games/"
