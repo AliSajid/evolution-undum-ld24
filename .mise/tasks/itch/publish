@@ -2,7 +2,7 @@
 set -euo pipefail
 
 #MISE description="Publish the HTML5 game to itch.io"
-#MISE depends=["validate"]
+#MISE depends=["itch:validate"]
 
 #USAGE flag "--version <version>" help="Set the itch.io build version"
 
